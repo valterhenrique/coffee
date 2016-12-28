@@ -1,2 +1,6 @@
-empId,firstName,lastName,salary
-"1","John","Doe","1.000"
+"empId","firstName","lastName","salary"
+"1","FirstName1","LastName1","10000.0"
+"2","FirstName2","LastName2","20000.0"
+"3","FirstName3","LastName3","30000.0"
+"4","FirstName4","LastName4","40000.0"
+"5","FirstName5","LastName5","50000.0"

@@ -2,16 +2,25 @@ package com.valterhenrique.parser;
 
 public class Employee {
 
-    private String empId;
+    private int empId;
     private String firstName;
-    public String lastName;
-    public String salary;
+    private String lastName;
+    private float salary;
 
-    public String getEmpId() {
+    public Employee() {}
+
+    public Employee(int empId, String firstName, String lastName, float salary) {
+        this.empId = empId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
+    }
+
+    public int getEmpId() {
         return empId;
     }
 
-    public void setEmpId(String empId) {
+    public void setEmpId(int empId) {
         this.empId = empId;
     }
 
@@ -31,11 +40,11 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    public String getSalary() {
+    public float getSalary() {
         return salary;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(float salary) {
         this.salary = salary;
     }
 }
