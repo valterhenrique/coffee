@@ -1,4 +1,4 @@
-package com.valterhenrique.parser;
+package com.valterhenrique.opencsv;
 
 import java.io.FileReader;
 import java.util.List;

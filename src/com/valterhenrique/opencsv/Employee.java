@@ -1,4 +1,4 @@
-package com.valterhenrique.parser;
+package com.valterhenrique.opencsv;
 
 public class Employee {
 

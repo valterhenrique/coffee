@@ -1,4 +1,4 @@
-package com.valterhenrique.parser;
+package com.valterhenrique.opencsv;
 
 import java.io.FileWriter;
 import java.util.ArrayList;
